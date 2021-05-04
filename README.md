@@ -9,5 +9,5 @@ Thanks [Kavsoft](https://youtu.be/y_zYvrJ_dkg) for this amazing tutorial. In thi
 ![IMG_4779](https://user-images.githubusercontent.com/53577079/117016077-05435680-acfb-11eb-9cca-885d2e2693fb.PNG)
 
 ## This is how the tapped card looks like:
-![Uploading IMG_4780.PNG…]()
+
 
