@@ -11,6 +11,8 @@
 		803149E12640787D00775D55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803149E02640787D00775D55 /* ContentView.swift */; };
 		803149E32640788000775D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803149E22640788000775D55 /* Assets.xcassets */; };
 		803149E62640788000775D55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803149E52640788000775D55 /* Preview Assets.xcassets */; };
+		803149F0264078E300775D55 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803149EF264078E300775D55 /* Card.swift */; };
+		803149F226407E9D00775D55 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803149F126407E9D00775D55 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		803149E22640788000775D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		803149E52640788000775D55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		803149E72640788000775D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803149EF264078E300775D55 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		803149F126407E9D00775D55 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				803149DE2640787D00775D55 /* Wallet_Card_AnimationApp.swift */,
-				803149E02640787D00775D55 /* ContentView.swift */,
+				803149ED264078AC00775D55 /* Model */,
+				803149EE264078C600775D55 /* View */,
 				803149E22640788000775D55 /* Assets.xcassets */,
 				803149E72640788000775D55 /* Info.plist */,
 				803149E42640788000775D55 /* Preview Content */,
@@ -67,6 +72,23 @@
 				803149E52640788000775D55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		803149ED264078AC00775D55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				803149EF264078E300775D55 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		803149EE264078C600775D55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				803149E02640787D00775D55 /* ContentView.swift */,
+				803149F126407E9D00775D55 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				803149E12640787D00775D55 /* ContentView.swift in Sources */,
+				803149F0264078E300775D55 /* Card.swift in Sources */,
+				803149F226407E9D00775D55 /* Home.swift in Sources */,
 				803149DF2640787D00775D55 /* Wallet_Card_AnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
